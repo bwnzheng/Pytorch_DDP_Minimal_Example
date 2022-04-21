@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,2 torchrun --master_port 9701 --nproc_per_node=2 minimal_demo.py
