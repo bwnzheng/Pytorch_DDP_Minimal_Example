@@ -66,6 +66,7 @@ if __name__ == '__main__':
 
             # if world_size==2:
             loss = F.cross_entropy(out, target)
+            opt.zero_grad()
             loss.backward()
             opt.step()
             # elif world_size==1:
