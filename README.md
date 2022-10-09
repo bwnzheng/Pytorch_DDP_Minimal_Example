@@ -15,5 +15,5 @@ With `DistributedSampler`, the best practice is to evenly divide batch size by n
 
 ## To Run This
 
-Run `CUDA_VISIBLE_DEVICES=0,2 torchrun --master_port 9701 --nproc_per_node=2 minimal_demo.py` in Repo directory.
+Run `CUDA_VISIBLE_DEVICES=0,1 torchrun --master_port 9701 --nproc_per_node=2 minimal_demo.py` in Repo directory.
 
